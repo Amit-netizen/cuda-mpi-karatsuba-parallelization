@@ -10,7 +10,7 @@ The project contains the following files:
 
 ### 1. **random_number_generator.c**
    - Generates **100,000 random 8-digit numbers**.
-   - Saves the generated numbers to two text files: `X_5000.txt` and `Y_5000.txt`.
+   - Saves the generated numbers to two text files: `X_100000.txt` and `Y_100000.txt`.
 
 ### 2. **karatsuba_seq.c**
    - Sequential implementation of the **Karatsuba algorithm** for multiplying large integers.
@@ -44,6 +44,8 @@ The project contains the following files:
 ```bash
 gcc karatsuba_seq.c -o karatsuba_seq
 ./karatsuba_seq
+
+---
 
 ### 2. **CUDA Code Compilation:**
 ```bash
