@@ -8,18 +8,18 @@ This repository optimizes the **Karatsuba algorithm** for large integer multipli
 
 The project contains the following files:
 
-### 1. **random_number_generator.c**
+### 1. **RandomNumberGenerator_X.c & RandomNumberGenerator_Y.c**
    - Generates **100,000 random 8-digit numbers**.
    - Saves the generated numbers to two text files: `X_100000.txt` and `Y_100000.txt`.
 
-### 2. **karatsuba_seq.c**
+### 2. **Seq_Karatsuba_100000.c**
    - Sequential implementation of the **Karatsuba algorithm** for multiplying large integers.
 
-### 3. **karatsuba_cuda.cu**
+### 3. **CUDA_Karatsuba_100000.cu**
    - **CUDA** implementation of the **Karatsuba algorithm** for **GPU acceleration**.
 
-### 4. **karatsuba_mpi.c**
-   - **MPI**-based distributed parallel implementation for Karatsuba multiplication across multiple CPU nodes.
+### 4. **MPI_Karatsuba_100000.c**
+   - **MPI**-based distributed parallel implementation for Karatsuba multiplication across **multiple CPU nodes**.
 
 ---
 
@@ -40,12 +40,9 @@ The project contains the following files:
 
 ## ⚡ **Compilation and Execution**
 
-### 1. **Sequential Code Compilation:**
-```bash
+### 1. **CUDA Code Compilation:**
 gcc karatsuba_seq.c -o karatsuba_seq
 ./karatsuba_seq
-
----
 
 ### 2. **CUDA Code Compilation:**
 ```bash
@@ -53,6 +50,6 @@ nvcc karatsuba_cuda.cu -o karatsuba_cuda
 ./karatsuba_cuda
 
 ### 3. **MPI Code Compilation:**
-bash
+```bash
 mpicc karatsuba_mpi.c -o karatsuba_mpi
 mpirun -np <num_processes> ./karatsuba_mpi
