@@ -138,7 +138,7 @@ The following tables and descriptions summarize the performance results obtained
 | 4     | 14.758                  | 3.711              | 4.0     |
 | 5     | 14.779                  | 5.355              | 2.7     |
 
-* **MPI Speedup:** MPI implementation achieved speedups ranging from 2.7 to 8.6 times compared to the sequential version, demonstrating the benefits of parallel processing on a CPU. [cite: 2]
+* **MPI Speedup:** MPI implementation achieved speedups ranging from 2.7 to 8.6 times compared to the sequential version, demonstrating the benefits of parallel processing on a CPU. 
 
 ### CUDA Parallelization Results
 
@@ -150,7 +150,7 @@ The following tables and descriptions summarize the performance results obtained
 | 4     | 20.916                  | 0.712               | 29.376  |
 | 5     | 21.235                  | 0.657               | 32.321  |
 
-* **CUDA Speedup:** The CUDA implementation showed significantly higher speedups, ranging from approximately 28 to 32 times faster than the sequential version, highlighting the massive parallelism offered by GPUs. [cite: 5]
+* **CUDA Speedup:** The CUDA implementation showed significantly higher speedups, ranging from approximately 28 to 32 times faster than the sequential version, highlighting the massive parallelism offered by GPUs. 
 
 ### Graphical Results (Description)
 
