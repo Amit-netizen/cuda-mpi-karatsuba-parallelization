@@ -137,6 +137,7 @@ The following tables and descriptions summarize the performance results obtained
 | 3     | 32.855                  | 5.355              | 6.1     |
 | 4     | 14.758                  | 3.711              | 4.0     |
 | 5     | 14.779                  | 5.355              | 2.7     |
+| **Average** | **26.334** | **5.241** | **5.02** |
 
 * **MPI Speedup:** MPI implementation achieved speedups ranging from 2.7 to 8.6 times compared to the sequential version, demonstrating the benefits of parallel processing on a CPU. 
 
@@ -149,6 +150,7 @@ The following tables and descriptions summarize the performance results obtained
 | 3     | 21.304                  | 0.692               | 30.786  |
 | 4     | 20.916                  | 0.712               | 29.376  |
 | 5     | 21.235                  | 0.657               | 32.321  |
+| **Average** | **20.789** | **0.691** | **30.121** |
 
 * **CUDA Speedup:** The CUDA implementation showed significantly higher speedups, ranging from approximately 28 to 32 times faster than the sequential version, highlighting the massive parallelism offered by GPUs. 
 
